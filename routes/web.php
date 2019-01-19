@@ -30,7 +30,8 @@ Route::get('show-example', 'ShowController@test');
 
 Route::resource('photo', 'PhotoController');
 Route::resource('images', 'ImageController');
-
+Route::resource("manufacturers", "ManufacturersController");
+Route::resource("mobile-phones", "MobilePhonesController");
 
 Auth::routes();
 
